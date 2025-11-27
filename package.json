@@ -7,7 +7,7 @@
   "type": "commonjs",
   "main": "sort.js",
   "scripts": {
-    "test": "test"
+    "test": "jest"
   },
   "devDependencies": {
     "jest": "^30.2.0"
