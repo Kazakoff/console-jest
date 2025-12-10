@@ -4,12 +4,11 @@ const createCounter = require('./counter');
 
 describe('counter test', () => {
 test('create', () => {
-     expect(cnt1.get()).toBe(beg);
+     expect(cnt1.get()).toBe(100);
 });
 test('increment', () => {
     const step =3;
     cnt1.increment(step);
-     expect(cnt1.get()).toBe(beg+step);
+     expect(cnt1.get()).toBe(103);
 })
-})
-;
+}); 

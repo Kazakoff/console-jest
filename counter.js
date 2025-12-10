@@ -4,7 +4,7 @@ module.exports = function createCounter(initial) {
         if (!isFinite(value) || value < 1) {
             value = 1;
         }
-        counter += value;
+ counter += value;
     }
     function get() {
         return counter;
